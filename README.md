@@ -13,10 +13,10 @@ Graph spectral neural network pipeline for predicting age from 3D monkey face me
 ## Project structure
 project/
 │
-├── notebooks
+├── notebooks/
 │ └── train_monkey_gftgcn_cv10.ipynb
 │
-├── data
+├── data/
 │ ├── monkey_ID_age_sex.txt
 │ └── input_obj/
 │
