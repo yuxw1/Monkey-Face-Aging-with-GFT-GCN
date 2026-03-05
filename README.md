@@ -11,3 +11,26 @@ Graph spectral neural network pipeline for predicting age from 3D monkey face me
 - Ridge regression baseline
 
 ## Project structure
+project/
+│
+├── notebooks
+│ └── train_monkey_gftgcn_cv10.ipynb
+│
+├── data
+│ ├── monkey_ID_age_sex.txt
+│ └── input_obj/
+│
+└── results/
+
+
+## Requirements
+torch
+torch-geometric
+trimesh
+scipy
+numpy
+
+## Run
+
+```bash
+python train_monkey_gftgcn_cv10.py
